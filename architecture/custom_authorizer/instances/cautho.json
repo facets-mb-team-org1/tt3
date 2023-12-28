@@ -1,0 +1,12 @@
+{
+  "$schema": "./custom_authorizer.schema.json",
+  "kind": "custom_authorizer",
+  "metadata": {},
+  "flavor": "default",
+  "version": "latest",
+  "disabled": true,
+  "provided": false,
+  "lifecycle": "ENVIRONMENT",
+  "advanced": {},
+  "spec": {}
+}

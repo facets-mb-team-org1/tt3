@@ -1,0 +1,29 @@
+[    
+	{
+        "intent": "custom_intent",
+        "displayName": "Custom intent",
+        "description": "Some random description",
+        "schemaUrl": "https://facets-cloud.github.io/facets-schemas/schemas/helm/helm.schema.json",
+        "documentation": "Documentation link",
+        "flavors": [
+            {
+                "name": [
+                    "helm_simple",
+                    "default"
+                ],
+                "clouds": [
+                    "azure",
+                    "aws",
+                    "gcp"
+                ],
+                "versions": [
+                    {
+                        "number": "0.1",
+                        "documentation": "NA"
+                    }
+                ],
+                "flavorSampleUrl": "https://facets-cloud.github.io/facets-schemas/schemas/helm/helm.helm_simple.sample.json"
+            }
+        ]
+    }
+]

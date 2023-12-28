@@ -1,0 +1,23 @@
+{
+  "$schema": "https://docs.facets.cloud/schemas/stack.schema",
+  "componentVersions": {
+    "KUBERNETES": "1.21"
+  },
+  "composition": {
+    "plugins": []
+  },
+  "clusterVariablesMeta": {
+    "GOOGLE_CLIENT_ID": {
+      "secret": true,
+      "value": "test124123",
+      "global": true,
+      "description": "test12123"
+    },
+    "PROFILE": {
+      "secret": true,
+      "value": "tesasd",
+      "global": true,
+      "description": "the activdasde profile"
+    }
+  }
+}
